@@ -10,7 +10,7 @@ for i in range(len(numbers)):
         if n < 2:
             is_prime = True
             print('primes: ', list[numbers])
-    # continue
+            continue
         else:
             print(not_primes)
-        # break
+        break
